@@ -11,3 +11,5 @@ Estructura del proyecto:
 SPA: En el caso del proyecto SPA, la estructura está con la carpeta pages, se hace uso de los hooks convencionales que funcionan en los client components como useEffect y useState. Se hacen los llamados a API dentro de useEffect y se hace uso de useState para el manejo de estados. En la comunicación de los componentes se hace uso de queries con react router.
 
     SSR: Se hace la estructura de la app con el formato de app router y todas las paginas iniciales excepto una se ejecuta del lado del servidor, eliminando el uso de useEffect, useState, react router y queries. En su lugar se usan params y se ejecutan los llamados a API del lado del servidor.
+
+\*\* El proyecto no tiene css y es tan simple como puede llegar a serlo debido a temas de tiempo, ya la entrega per sé está atrasada y el equipo en desarrollo de la siguiente actividad conectada con DB.
